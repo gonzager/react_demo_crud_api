@@ -7,11 +7,12 @@
 - [Formik](https://formik.org/): Es una librería que permite gestionar formularios de forma declarativa en React.
 - [Axios](https://www.npmjs.com/package/axios): Es un cliente que permite realizar solicitudes HTTP basado en promesas que se puede ejecutar en el navegador
 
-Para crear un proyecto siguiendo esta plantilla, lo único que tenés que hacer es clickear en el botón que dice Use this template. ¡Y no te olvides de cambiarle el nombre en el package.json!
+Para crear un proyecto siguiendo esta plantilla, lo único que tenés que hacer es clickear en el botón que dice **Use this template** de arriba a la derecha en la pagina de GitHub. ¡Y no te olvides de cambiarle el nombre en el package.json!
 
-ℹ️ Este proyecto fue creado con [Vite](https://es.vite.dev/) con el comando npm ``create vite@latest` seleccionado el framework React y la Variante TypeScrip, y por lo tanto toda la documentación del sitio oficial también puede consultarse para saber más.
+ℹ️ Este proyecto fue creado con [Vite](https://es.vite.dev/) con el comando npm `create vite@latest` seleccionado el framework React y la Variante TypeScript, y por lo tanto toda la documentación del sitio oficial también puede consultarse para saber más.
 
-☝️ Prerrequisitos - para instalar antes de empezar
+## :point_up: Prerrequisitos - para instalar antes de empezar
+
 Vas a necesitar un IDE o al menos un editor de texto que coloree la sintaxis. Recomendamos utilizar Visual Studio Code - que se lleva muy bien con proyectos JavaScript - enriquecido con los siguientes plugins:
 
 - [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
@@ -20,9 +21,10 @@ Vas a necesitar un IDE o al menos un editor de texto que coloree la sintaxis. Re
 
 Para ejecutar el código es necesario tener [NodeJS](https://nodejs.org/es/download) en su versión 20.18.3 TLS ó superior. Podes consultar que versión tenes instalada corriendo el siguiente comando `node --version`. Para instalarlo recomendamos utilizar el manejador de versiones nvm, aunque también podés hacerlo manualmente siguiendo las instrucciones adecuadas para tu sistema operativo.
 
-El ejemplo viene preparado para ser ejecutado junto a una API, que puede crearse desde este repositorio [Api Series V3](https://github.com/gonzager")
+El ejemplo viene preparado para ser ejecutado junto a una API, que puede crearse desde este repositorio [Api Series V3](https://github.com/gonzager/api_series_v3)
 
-☑️ Configuración inicial del proyecto
+## :ballot_box_with_check: Configuración inicial del proyecto
+
 Asumiendo que ya configuraste todos los prerrequisitos, esté es el comando que deberías ejecutar la primera vez que trabajes en el proyecto:
 
 ```shell
@@ -30,14 +32,15 @@ Asumiendo que ya configuraste todos los prerrequisitos, esté es el comando que 
 npm install
 ```
 
-Luego vas a tener que configurar vas a tener que cambiar la variable de entorno que se encuentra dentro de archivo **_.env_**
+Luego vas a tener que configurarla variable de entorno **VITE_API_URL** que se encuentra dentro de archivo **_.env_** reemplazando el valor a la derecha del igual con la URL de la api del back-end
 
 ```shell
 ## URL donde se encuentra la api
 VITE_API_URL=http://localhost:4000
 ```
 
-📁 Estructura de directorios
+## :file_folder: Estructura de directorios
+
 Breve descripción de qué se puede encontrar en cada uno de los directorios del proyecto:
 
 ```shell
@@ -50,7 +53,8 @@ Breve descripción de qué se puede encontrar en cada uno de los directorios del
     └── utils               # Utilitarios que usa la aplicación
 ```
 
-👩‍💻 👨‍💻 Comandos útiles para el día a día
+## :woman_technologist: :man_technologist: Comandos útiles para el día a día
+
 A continuación, algunos comandos necesarios para el desarrollo diario en este proyecto.
 
 ### Código
@@ -61,6 +65,6 @@ npm run dev
 
 ```
 
-### Demo
+## :rocket: Demo
 
 ![Demo](./public/demo.gif)

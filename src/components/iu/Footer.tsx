@@ -15,7 +15,9 @@ export default function Footer() {
         <Typography variant="body2" color="text.secondary">
           Si encontraste algún error ó queres mirar el código y realizar mejoras
           podés hacer un pull request al proyecto{" "}
-          <Link href="https://github.com/gonzager">en GitHub</Link>
+          <Link href="https://github.com/gonzager/react_demo_crud_api">
+            en GitHub
+          </Link>
         </Typography>
       </Box>
     </Box>

@@ -25,7 +25,7 @@ const ClonarProyecto = () => {
         <Button
           variant="contained"
           color="primary"
-          href="https://github.com/gonzager"
+          href="https://github.com/gonzager/react_demo_crud_api/generate"
         >
           ¡Quiero crear mi proyecto!
         </Button>
@@ -44,8 +44,10 @@ const Tip = () => {
     >
       <LightBulbIcon />
       Tip: Podés leer la{" "}
-      <Link href="https://github.com/gonzager">documentación</Link> completa en
-      el README.
+      <Link href="https://github.com/gonzager/react_demo_crud_api/blob/main/README.md">
+        documentación
+      </Link>{" "}
+      completa en el README.
     </Typography>
   );
 };
